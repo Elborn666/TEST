@@ -1,0 +1,33 @@
+.header__container {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+}
+.header__body {
+    display: flex;
+    align-items: center;
+    padding: 15px 0px 14px 0px;
+}
+.burger__btn {
+    margin-right: auto;
+    width: 29px;
+    height: 29px;
+}
+.header__icon-list {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+}
+.header__icon-item {
+}
+.burger__favorite {
+    width: 25px;
+    height: 25px;
+}
+.burger__basket {
+    width: 25px;
+    height: 25px;
+}
+.burger__user {
+    width: 31px;
+    height: 31px;
+}

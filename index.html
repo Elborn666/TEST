@@ -1,32 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Lato&family=Poppins&family=Roboto+Condensed:wght@400;700&family=Source+Sans+Pro:wght@400;600&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="./css/main.min.css">
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Lato&family=Poppins&family=Roboto+Condensed:wght@400;700&family=Source+Sans+Pro:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/main.min.css" />
     <title>TEST</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <header class="header">
-       
+      <div class="header__container container">
+        <div class="header__body">
+          <svg class="burger__btn">
+            <use href="./icon/symbol-defs.svg#icon-burger"></use>
+          </svg>
+          <ul class="header__icon-list">
+            <li class="header__icon-item">
+              <svg class="burger__favorite">
+                <use href="./icon/symbol-defs.svg#icon-heart-line"></use>
+              </svg>
+            </li>
+            <li class="header__icon-item">
+              <svg class="burger__basket">
+                <use
+                  href="./icon/symbol-defs.svg#icon-shopping-cart-2-line"
+                ></use>
+              </svg>
+            </li>
+            <li class="header__icon-item">
+              <svg class="burger__user">
+                <use href="./icon/symbol-defs.svg#icon-user"></use>
+              </svg>
+            </li>
+          </ul>
+        </div>
+      </div>
     </header>
 
     <main>
-        
+      <section class="hero">
+        <div class="hero__container container">
+          <div class="hero__body">
+            <div class="hero__nav">
+              <span>HOME</span>> PRODUKTY> ELECTRIC TOOLS> WIRELESS
+            </div>
+            <button class="hero__delivery">DELIVERY</button>
+            <h1 class="hero__title title">
+              Cordless impact drill MAKITA HP457DWE 18V, 1.3 Ah, 2 batteries
+            </h1>
+            <div class="hero__screwdriver-big"></div>
+            <ul class="hero__screwdriver-list">
+              <li class="hero__screwdriver-front"></li>
+              <li class="hero__screwdriver-side"></li>
+              <li class="hero__screwdriver-set"></li>
+              <li class="hero__screwdriver-switch"></li>
+            </ul>
+            <p class="hero__details-text">Show details</p>
+            <p class="hero__delivery-text">Fill in the delivery information</p>
+            <form class="hero__form">
+              <input type="tel" class="hero__tel" placeholder="+49 XX XXX XX XX"/>
+              <input type="email" class="hero__email" placeholder="emailexample@"/>
+              <input type="text" class="hero__name" placeholder="Your Name"/>
+              <button type="submit" class="hero__btn">continue</button>
+            </form>
+          </div>
+        </div>
+      </section>
     </main>
 
-    <footer class="footer">
-        
-    </footer>
-
-
-</body>
-
+    <footer class="footer"></footer>
+  </body>
 </html>
