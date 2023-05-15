@@ -1,0 +1,35 @@
+.about__container {
+    padding-top: 113px;
+}
+.about__title {
+    margin-bottom: 26px;
+}
+.about__subtitle {
+    margin-bottom: 30px;
+}
+.about__text {
+    margin-bottom: 30px;
+}
+.about__btn-wrapper {
+    display: flex;
+    justify-content: center;
+}
+.about__button {
+    width: 320px;
+    margin-bottom: 71px;
+    padding: 20px 23px;
+    font-family: 'Roboto Condensed';
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: $color-green;
+    border: 1px solid $color-green;
+    border-radius: 20px;
+    background-color: inherit;
+}
+.about__img {
+    background-image: url('../img/about/image.png');
+    width: 345px;
+    height: 351px;
+}

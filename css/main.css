@@ -273,4 +273,46 @@ a {
   box-shadow: 0px 18px 50px rgba(244, 90, 3, 0.5);
   border-radius: 20px;
   cursor: pointer;
+}
+
+.about__container {
+  padding-top: 113px;
+}
+
+.about__title {
+  margin-bottom: 26px;
+}
+
+.about__subtitle {
+  margin-bottom: 30px;
+}
+
+.about__text {
+  margin-bottom: 30px;
+}
+
+.about__btn-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.about__button {
+  width: 320px;
+  margin-bottom: 71px;
+  padding: 20px 23px;
+  font-family: "Roboto Condensed";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #00B268;
+  border: 1px solid #00B268;
+  border-radius: 20px;
+  background-color: inherit;
+}
+
+.about__img {
+  background-image: url("../img/about/image.png");
+  width: 345px;
+  height: 351px;
 }/*# sourceMappingURL=main.css.map */
