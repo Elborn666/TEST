@@ -81,6 +81,7 @@
     font-weight: 400;
     line-height: 23px;
     color: $color-dark;
+    cursor: pointer;
     &::after {
         content: "";
         display: block;
