@@ -137,6 +137,9 @@
     line-height: 24px;
     color: $color-dark;
 }
+.hero__form-tel {
+    position: relative;
+}
 .hero__tel {
     width: 320px;
     padding: 12px 16px;
@@ -149,6 +152,13 @@
         height: 16px;
         background-image: url('../icon/Deutshc.svg');
     }
+}
+.hero__tel ~ span {
+    position: absolute;
+    top: 20px;
+    left: 87px;
+    border: 3px solid transparent; 
+    border-top: 6px solid $color-dark;
 }
 .hero__tel::placeholder {
     padding-left: 36px;
@@ -165,7 +175,11 @@
     width: 25px;
     height: 25px;
 }
+.hero__form-email {
+    position: relative;
+}
 .hero__email {
+    width: 320px;
     padding: 12px 16px;
     border: 1px solid $color-dark;
     border-radius: 8px;
@@ -176,6 +190,18 @@
     font-weight: 400;
     line-height: 24px;
     color: $color-dark;
+}
+.hero__email ~ span {
+    position: absolute;
+    top: -10px;
+    left: 15px;
+    padding: 1px 3px;
+    font-family: 'Inter';
+    font-size: 13px;
+    line-height: 20px;
+    background-color: $color-dark;
+    color: #FFFFFF;
+    border-radius: 7px;
 }
 .hero__name {
     padding: 12px 16px;
