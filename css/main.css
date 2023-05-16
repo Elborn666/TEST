@@ -159,12 +159,20 @@ a {
   width: 75px;
   height: 75px;
 }
+.hero__screwdriver-front:hover {
+  border: 3px solid #00B268;
+  border-radius: 0px;
+}
 
 .hero__screwdriver-side {
   background: linear-gradient(180deg, #F0F0F0 0%, #D5EDFF 100%);
   background-image: url("../img/card/Frame2.jpg");
   width: 75px;
   height: 75px;
+}
+.hero__screwdriver-side:hover {
+  border: 3px solid #00B268;
+  border-radius: 0px;
 }
 
 .hero__screwdriver-set {
@@ -173,12 +181,24 @@ a {
   width: 75px;
   height: 75px;
 }
+.hero__screwdriver-set:hover {
+  border: 3px solid #00B268;
+  border-radius: 0px;
+}
 
 .hero__screwdriver-switch {
   background: linear-gradient(180deg, #F0F0F0 0%, #D5EDFF 100%);
   background-image: url("../img/card/Frame4.jpg");
   width: 75px;
   height: 75px;
+}
+.hero__screwdriver-switch:hover {
+  border: 3px solid #00B268;
+  border-radius: 0px;
+}
+
+.hero__text-description {
+  display: none;
 }
 
 .hero__details-text {
@@ -234,6 +254,13 @@ a {
   border: 1px solid #000000;
   border-radius: 8px;
 }
+.hero__tel::after {
+  content: "";
+  display: block;
+  width: 25px;
+  height: 16px;
+  background-image: url("../icon/Deutshc.svg");
+}
 
 .hero__tel::placeholder {
   font-family: "Inter";
@@ -287,6 +314,81 @@ a {
   cursor: pointer;
 }
 
+@media screen and (min-width: 768px) {
+  .hero__container {
+    position: relative;
+  }
+  .hero__nav {
+    padding: 34px 0px 13px 0px;
+  }
+  .hero__body {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .hero__box-title {
+    margin-left: 89px;
+  }
+  .hero__screwdriver-img-wrapper {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .hero__screwdriver-big {
+    margin-bottom: 26px;
+    margin-left: 21px;
+    width: 446px;
+    height: 446px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .hero__screwdriver-front,
+.hero__screwdriver-side,
+.hero__screwdriver-set,
+.hero__screwdriver-switch {
+    width: 104px;
+    height: 104px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .hero__screwdriver-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 32px;
+  }
+  .hero__text-description {
+    width: 440px;
+    margin-left: auto;
+    font-family: "Roboto Condensed";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+  }
+  .hero__description-item {
+    list-style-type: disc;
+  }
+  .hero__description-item > span {
+    font-weight: 700;
+    color: #00B268;
+  }
+  .hero__text-description {
+    display: block;
+  }
+  .hero__details-text {
+    display: none;
+  }
+  .hero__delivery-text::before {
+    content: "";
+    display: none;
+  }
+  .hero__form-box {
+    width: 320px;
+    position: absolute;
+    right: 265px;
+    bottom: 150px;
+  }
+}
 .about__container {
   padding-top: 113px;
 }
