@@ -29,3 +29,36 @@
     width: 204px;
     height: 205px;
 }
+@media screen and (min-width:768px) {
+    .star__container{
+        padding-top: 26px;
+    }
+    .star__body {
+        display: flex;
+    }
+    .star__wrapper {
+        margin-right: 47px;
+    }
+    .star__text {
+        margin-bottom: 47px;
+    }
+    .star__img {
+        margin-bottom: 47px;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 409px;
+        height: 409px;
+    }
+    .star__text-primary {
+        margin-bottom: 47px;
+    }
+    .star__box {
+        margin-top: 112px;
+    }
+    .star__img-smal {
+        width: 253px;
+        height: 253px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}

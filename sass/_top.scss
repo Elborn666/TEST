@@ -42,10 +42,8 @@
    color: #04BB21;
 } 
 .top__number {
-    margin-left: auto;
-    margin-right: 35px;
+    display: none;
 }
-
 @media screen and (min-width:768px) {
     .top__container {
         padding-top: 122px;
@@ -61,5 +59,10 @@
     }
     .top__item-text {
         width: 75%;
+    }
+    .top__number {
+        display: block;
+        margin-left: auto;
+        margin-right: 35px;
     }
 }
