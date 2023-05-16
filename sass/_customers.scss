@@ -7,11 +7,16 @@
 }
 .customers__title {
     display: flex;
+    position: relative;
+    margin-left: auto;
+    width: 259px;
     margin-bottom: 34px;
     &::before{
         content: "";
         display: block;
-        margin-right: 15px;
+        top: 13px;
+        left: -75px;
+        position: absolute;
         background-image: url('../img/star/star.png');
         width: 56px;
         height: 56px;
@@ -20,6 +25,7 @@
 .customers__wrapper-text {
     margin-bottom: 81px;
     margin-left: auto;
+    width: 259px;
 }
 .customers__subtitle {
     margin-bottom: 16px;
