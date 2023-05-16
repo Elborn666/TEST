@@ -4,6 +4,7 @@
 .customers__container {
     padding-top: 63px;
     padding-bottom: 71px;
+    background: #E2EFF8;
 }
 .customers__title {
     display: flex;
@@ -45,6 +46,12 @@
     flex-direction: column;
     gap: 26px;
     margin-bottom: 45px;
+}
+.customers__list-second {
+    display: none;
+}
+.customers__list-third {
+    display: none;
 }
 .customers__item {
     padding: 32px;
@@ -95,5 +102,47 @@
         width: 15px;
         height: 15px;
         background-image: url('../icon/cross-down.svg');
+    }
+}
+
+@media screen and (min-width:768px) {
+    .customers__container {
+        padding-top: 57px;
+        padding-bottom: 108px;
+    }
+    .customers__title {
+        width: 314px;
+        margin-left: 197px;
+        &::before{
+            top: -8px;
+            left: -75px;
+        }
+    }
+    .customers__wrapper-text {
+        margin-bottom: 81px;
+        margin-left: 197px;
+        width: 375px;
+    }
+    .customers__list {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 23px;
+        margin-left: 92px;
+    }
+    .customers__list-second {
+        display: flex;
+        gap: 26px;
+        margin-bottom: 23px;
+    }
+    .customers__list-third {
+        display: flex;
+        margin-left: 170px;
+        gap: 26px;
+    }
+    .customers__item {
+        width: 320px;
+    }
+    .customers__show-me {
+       display: none;
     }
 }
