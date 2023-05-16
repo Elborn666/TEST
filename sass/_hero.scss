@@ -142,7 +142,7 @@
 }
 .hero__tel {
     width: 320px;
-    padding: 12px 16px;
+    padding: 12px 16px 12px 45px;
     border: 1px solid $color-dark;
     border-radius: 8px;
     &::after{
@@ -161,7 +161,7 @@
     border-top: 6px solid $color-dark;
 }
 .hero__tel::placeholder {
-    padding-left: 36px;
+    padding-left: 5px;
     font-family: 'Inter';
     font-size: 16px;
     font-weight: 400;
