@@ -514,4 +514,63 @@ a {
   width: 15px;
   height: 15px;
   background-image: url("../icon/cross-down.svg");
+}
+
+.how__container {
+  padding-top: 74px;
+  padding-bottom: 117px;
+}
+
+.how__title {
+  margin-bottom: 50px;
+}
+
+.how__subtitle {
+  margin-bottom: 29px;
+}
+
+.how__text {
+  margin-bottom: 50px;
+}
+
+.how__list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  font-family: "Roboto Condensed";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+}
+
+.how__item {
+  display: flex;
+  align-items: center;
+}
+
+.how__item-text {
+  margin-left: 18px;
+}
+
+.item-join,
+.item-choose,
+.item-receive {
+  width: 63px;
+  height: 63px;
+}
+
+.how__button {
+  margin-top: 58px;
+  padding: 21px 23px;
+  width: 320px;
+  font-family: "Roboto Condensed";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 24px;
+  text-transform: uppercase;
+  border: 1px solid #00B268;
+  background: #00B268;
+  box-shadow: 0px 18px 50px rgba(0, 178, 104, 0.5);
+  border-radius: 20px;
+  color: white;
 }/*# sourceMappingURL=main.css.map */
