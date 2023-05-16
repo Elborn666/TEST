@@ -24,17 +24,27 @@
     position: relative;
     align-items: center;
     gap: 22px;
-    &::after {
-        content: "";
-        position: absolute;
-        display: block;
-        width: 21px;
-        height: 21px;
-        top: -7px;
-        left: 60px;
-        border-radius: 50%;
-        background-color: $color-green;
-    }
+}
+.header__icon-item {
+    position: relative;
+}
+.header__icon-item > span {
+    position: absolute;
+    top: -10px;
+    left: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 21px;
+    height: 21px;
+    font-family: 'Roboto Condensed';
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 13px;
+    color: #FAFAFA;
+
+    background-color: $color-green;
+    border-radius: 50%;
 }
 .burger__favorite {
     width: 25px;
