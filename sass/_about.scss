@@ -34,3 +34,27 @@
     width: 345px;
     height: 351px;
 }
+
+@media screen and (min-width:768px) {
+    .about__container {
+        padding-top: 126px;
+    }
+    .about__body {
+        display: flex;
+    }
+    .about__box {
+        width: 50%;
+        margin-right: 84px;
+    }
+    .about__btn-wrapper {
+        display: flex;
+        justify-content: flex-start;
+    }
+    .about__img {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 579px;
+        height: 591px;
+    }
+}
