@@ -65,6 +65,7 @@ a {
   margin-right: auto;
   width: 29px;
   height: 29px;
+  cursor: pointer;
 }
 
 .header__icon-list {
@@ -76,16 +77,19 @@ a {
 .burger__favorite {
   width: 25px;
   height: 25px;
+  cursor: pointer;
 }
 
 .burger__basket {
   width: 25px;
   height: 25px;
+  cursor: pointer;
 }
 
 .burger__user {
   width: 31px;
   height: 31px;
+  cursor: pointer;
 }
 
 .hero__nav {
@@ -114,6 +118,7 @@ a {
   border: 2px solid #00B368;
   border-radius: 25px;
   background-color: inherit;
+  cursor: pointer;
 }
 .hero__delivery::before {
   content: "";
@@ -573,4 +578,27 @@ a {
   box-shadow: 0px 18px 50px rgba(0, 178, 104, 0.5);
   border-radius: 20px;
   color: white;
+  cursor: pointer;
+}
+
+.footer {
+  background: #010036;
+}
+
+.footer__container {
+  padding-top: 37px;
+  padding-bottom: 43px;
+}
+
+.footer__text {
+  margin-bottom: 23px;
+  font-family: "Roboto Condensed";
+  font-size: 11px;
+  line-height: 13px;
+}
+
+.footer__list {
+  display: flex;
+  justify-content: center;
+  gap: 7px;
 }/*# sourceMappingURL=main.css.map */

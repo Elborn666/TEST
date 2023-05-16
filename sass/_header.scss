@@ -11,6 +11,7 @@
     margin-right: auto;
     width: 29px;
     height: 29px;
+    cursor: pointer;
 }
 .header__icon-list {
     display: flex;
@@ -20,12 +21,15 @@
 .burger__favorite {
     width: 25px;
     height: 25px;
+    cursor: pointer;
 }
 .burger__basket {
     width: 25px;
     height: 25px;
+    cursor: pointer;
 }
 .burger__user {
     width: 31px;
     height: 31px;
+    cursor: pointer;
 }
