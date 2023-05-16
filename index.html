@@ -84,7 +84,12 @@
           <div class="hero__form-box">
             <p class="hero__delivery-text">Fill in the delivery information</p>
             <form class="hero__form">
-              <input type="tel" class="hero__tel" placeholder="+49 XX XXX XX XX" />
+              <div class="hero__form-tel">
+                <input type="tel" class="hero__tel" placeholder="+49    XX XXX XX XX" />
+                <svg class="tel__icon">
+                  <use href="./icon/symbol-defs.svg#icon-Deutshc"></use>
+                </svg>
+              </div>
               <input type="email" class="hero__email" placeholder="emailexample@" />
               <input type="text" class="hero__name" placeholder="Your Name" />
               <button type="submit" class="hero__btn">continue</button>
