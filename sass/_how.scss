@@ -6,7 +6,7 @@
     margin-bottom: 50px;
 }
 .how__subtitle {
-    margin-bottom: 29px;
+    margin-bottom: 30px;
 }
 .how__text {
     margin-bottom: 50px;
@@ -49,4 +49,25 @@
     border-radius: 20px;
     color: #ffff;
     cursor: pointer;
+}
+
+@media screen and (min-width:768px) {
+    .how__container {
+        padding-top: 95px;
+        padding-bottom: 122px;
+    }
+    .how__body {
+        display: flex;
+        margin-left: 125px;
+    }
+    .how__text-wrapper {
+        width: 483px;
+        margin-right: 109px;
+    }
+    .how__list {
+        margin-top: 100px;
+    }
+    .how__button {
+        margin-left: 125px;
+    }
 }
