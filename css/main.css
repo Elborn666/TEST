@@ -28,6 +28,12 @@ body {
   color: #5E5E5E;
 }
 
+@media screen and (min-width: 768px) {
+  .container {
+    width: 1400px;
+    padding: 0px 150px;
+  }
+}
 h1,
 h2,
 h3,
@@ -601,4 +607,14 @@ a {
   display: flex;
   justify-content: center;
   gap: 7px;
+}
+
+@media screen and (min-width: 768px) {
+  .footer__container {
+    padding-top: 37px;
+    padding-bottom: 38px;
+  }
+  .footer__list {
+    justify-content: flex-start;
+  }
 }/*# sourceMappingURL=main.css.map */

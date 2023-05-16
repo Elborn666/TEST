@@ -24,3 +24,10 @@ body {
     line-height: 30px;
     color: #5E5E5E;
 }
+
+@media screen and (min-width:768px) {
+    .container {
+        width: 1400px;
+        padding: 0px 150px;
+    }
+}
